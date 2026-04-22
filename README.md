@@ -43,21 +43,21 @@ Tool calls I think we need is only the ability to spawn processes. If a model wa
 The cli tool in /tools/process-open should aid in generating the correct format for this.
 
 Working example:
-<process_open path="/bin/sh">
+``<process_open path="/bin/sh">
 <args>
 -c
 ls
 </args>
 <stdin></stdin> // omit when empty
-</process_open>
+</process_open>``
 
 Once the agent enabling the model detects the tool call, it pauses the execution, interprets the tool call, appends the output and resumes prompting the model.
 
-<process_output exec_time="1ms">
+``<process_output exec_time="1ms">
 drwxr-xr-x    - user 22 Apr 19:52  .git
 drwxr-xr-x    - user 22 Apr 19:53  datasets
 .rw-r--r-- 3.3k user 22 Apr 20:22 󰂺 README.md
-</process_output>
+</process_output>``
 
 ## OTHER TOOLS
 I think we should maintain a CLI tool to easily use a browser in a way that should not get bot-blocked like agent-browser by Vercel. In fact, I already built such a thing for an agent I made named Justabot (https://zarkones.itch.io/Justabot), therefore, I will just publish it soon.
