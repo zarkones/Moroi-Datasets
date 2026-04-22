@@ -60,4 +60,4 @@ drwxr-xr-x    - user 22 Apr 19:53  datasets
 </process_output>``
 
 ## OTHER TOOLS
-I think we should maintain a CLI tool to easily use a browser in a way that should not get bot-blocked like agent-browser by Vercel. In fact, I already built such a thing for an agent I made named Justabot (https://zarkones.itch.io/Justabot), therefore, I will just publish it soon.
+I think we should maintain a CLI tool to easily use a browser in a way that should not get bot-blocked like agent-browser by Vercel. In fact, I already built such a thing for an agent I made named Justabot (https://zarkones.itch.io/Justabot), it is available here https://github.com/zarkones/Moroi-Browser
