@@ -29,10 +29,15 @@ I am saying this because we trained GPT models to have system messages, they obe
 We have already approximated demons with no guilt, no emotions, just a desire to comply.
 
 # DATASETS
-Only high-quality datasets allowed, 
+Only high-quality datasets allowed.
 
 ## Version 1
 The initial version of the dataset is split in two. Authentic (manually created datasets) and synthetic (datasets created with help of agents).
+
+## Speech
+The model's visible text must be specified in <speak> tags.
+
+All non-model text (like from a human) must be in <listen> tags.
 
 ## BOS
 Each new document should begin with "I am awake.", then it should be directed towards a topic, naturally.
